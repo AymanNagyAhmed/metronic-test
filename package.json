@@ -1,13 +1,8 @@
 {
     "private": true,
     "scripts": {
-        "dev": "npm run development",
-        "development": "mix",
-        "watch": "mix watch",
-        "watch-poll": "mix watch -- --watch-options-poll=1000",
-        "hot": "mix watch --hot",
-        "prod": "npm run production",
-        "production": "mix --production"
+        "dev": "vite",
+        "build": "vite build"
     },
     "dependencies": {
         "@amcharts/amcharts4": "^4.10.20",
@@ -97,7 +92,6 @@
         "alpinejs": "^2.7.3",
         "autoprefixer": "^10.1.0",
         "axios": "^0.21.1",
-        "laravel-mix": "^6.0.28",
         "lodash": "^4.17.19",
         "postcss": "^8.3.6",
         "postcss-import": "^14.0.2",
@@ -106,6 +100,8 @@
         "rtlcss": "^3.1.2",
         "sass": "1.32.13",
         "sass-loader": "^8.0.2",
-        "webpack-rtl-plugin": "^2.0.0"
+        "webpack-rtl-plugin": "^2.0.0",
+        "vite": "^3.0.2",
+        "laravel-vite-plugin": "^0.6.0"
     }
 }
